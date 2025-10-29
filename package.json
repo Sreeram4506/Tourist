@@ -1,0 +1,14 @@
+{
+  "name": "bookit-monorepo",
+  "version": "1.0.0",
+  "description": "BookIt: Experience booking platform",
+  "scripts": {
+    "dev": "cd backend && npm run dev",
+    "build": "cd backend && npm run build",
+    "start": "cd backend && npm start",
+    "seed": "cd backend && npm run seed"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
