@@ -1,0 +1,30 @@
+{
+  "name": "bookit",
+  "version": "1.0.0",
+  "description": "A fullstack web application for booking travel experiences with slot management, promo codes, and secure booking system.",
+  "main": "index.js",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": [
+    "booking",
+    "travel",
+    "experiences",
+    "slots",
+    "promo",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
