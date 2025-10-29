@@ -7,8 +7,11 @@
     "install:backend": "cd backend && npm install",
     "install:frontend": "cd frontend && npm install",
     "install:all": "npm run install:backend && npm run install:frontend",
+    "dev": "cd backend && npm run dev",
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd backend && npm run build",
+    "start": "cd backend && npm start",
     "build:backend": "cd backend && npm run build",
     "build:frontend": "cd frontend && npm run build",
     "seed": "cd backend && npm run seed"
