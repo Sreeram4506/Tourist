@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://tourist-8.onrender.com',
+  baseURL: import.meta.env.VITE_API_URL || 'https://tourist-9.onrender.com',
 });
 
 export const getExperiences = () => api.get('/experiences');
